@@ -1,0 +1,109 @@
+*{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: #141414;
+}
+.mid{
+    display: flex;
+    justify-content: center;
+}
+.main-profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.div1{
+    background: #1f1f1f;
+    height: 650px;
+    width: 400px;
+    border-radius: 10px;
+    margin-top: -25px;
+}
+.profile-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+.profile-img img{
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;   
+}
+
+.user-name{
+    color: #ffffff;
+    padding: 30px;
+}
+.user-loc{
+    margin-top: -25px;
+    font-size: 14px;
+    color: #c4f72a;
+}
+.para{
+    font-size: 14px;
+    color: #ffffff;
+    padding: 20px;
+}
+
+.text-box{
+    margin-top: -45px;
+}
+.option-box{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.option-box ul{
+    color: #333333;
+}
+
+.option-box ul li{
+    list-style: none;
+    padding: 15px;
+    background: #333333;
+    margin: 10px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.option-box ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+/*======================= hover ====================*/
+
+.option-box ul li:hover{
+    a{
+        color: #333333;
+    }
+    background: #c4f72a;
+    transition: 0.6s;
+}
+
+/*================= mobile design =================*/
+@media (max-width: 375px) {
+    .div1 {
+        width: 300px;
+        height: auto;
+    }
+    .option-box ul li {
+        width: 250px;
+    }
+    .profile-img img {
+        height: 70px;
+        width: 70px;
+    }
+}
